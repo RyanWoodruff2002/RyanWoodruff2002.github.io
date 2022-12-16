@@ -5,6 +5,7 @@ function Aircnc() {
     return(
         <div className="grid justify-items-center items-center">
             <br/>
+            <h1>Aircnc</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 Aircnc is the fourth group project I worked on at Flatiron. This project was a collaboration between me and one fellow student. This was unusual as groups of three were assigned for previous projects. Our primary goal was to make a full-stack project using our newly learned Ruby on Rails skills with full CRUD and user authentication. User auth was especially difficult to implement during this project as we were given less than a week to learn it.

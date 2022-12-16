@@ -4,6 +4,7 @@ function pickyEater() {
     return (
         <div className="grid justify-items-center items-center">
             <br/>
+            <h1>Picky Eater</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 Picky Eater is the second group project I collaborated in at Flatiron. We wanted to create a humorous website for the Picky Eater restaurant. 

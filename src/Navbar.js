@@ -2,41 +2,28 @@ import React from 'react';
 import {  Link } from "react-router-dom";
 const Navbar= () =>{
   return (
-      <ul className="flex border-b items-center justify-around">
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/">About Me</Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/PokemonFetcher">
-            Pokemon Fetcher
+      <div className='w-full h-24 centered md:h-24'>
+        {/* <p>Ryan Woodruff <br/> Full Stack Developer</p> */}
+        <div >
+          <Link href="#" to="/">
+            Home</Link>
+        </div>
+        <div >
+          <Link href="#" to="/Portfolio">
+            Portfolio
           </Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/PickyEater">
-            Picky Eater
+        </div>
+        <div >
+          <Link href="#" to="/Resume">
+            Resume
           </Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/TicketRuler">
-            Ticket Ruler
+        </div>
+        <div >
+          <Link href="#" to="/Contact">
+            Contact
           </Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/Aircnc">
-            Aircnc
-          </Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/GameBuddy">
-            Game Buddy
-          </Link>
-        </li>
-        <li className="mr-1">
-          <Link className="inline-block py-2 px-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500" href="#" to="/MyLinks">
-            Connect With Me
-          </Link>
-        </li>
-      </ul>
+        </div>
+      </div>
   );
 }
 export default Navbar;

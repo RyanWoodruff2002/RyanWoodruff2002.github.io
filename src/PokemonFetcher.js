@@ -4,6 +4,7 @@ function pokemonFetcher() {
     return (
         <div className="grid justify-items-center items-center">
             <br/>
+            <h1>Pokemon Fetcher</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 Pokemon Fetcher is the first group project I collaborated in at Flatiron. During the creation of this app, my team members and I only knew vanilla JavaScript. We wanted to create a fun app that would allow you to generate Pokemon and add them to your team. We also wanted to let users remove pokemon from their team. For this project we used <a target="_blank" href="https://pokeapi.co/" >PokeApi.</a>

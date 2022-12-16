@@ -5,6 +5,7 @@ function GameBuddy() {
     return(
         <div className="grid justify-items-center items-center">
             <br/>
+            <h1>Game Buddy</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 GameBuddy is the fifth and final project I completed at Flatiron. This was a solo project with minimal instructor interaction. For this project we were expected to incorporate everything we had learned in the program as well as one new technology we had to learn on our own. For this project I used REST client to incorporate an external API into my full stack application. 

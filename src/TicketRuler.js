@@ -4,6 +4,7 @@ function ticketRuler() {
     return (
         <div className="grid justify-items-center items-center">
             <br/>
+            <h1>Ticket Ruler</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 Ticket Ruler is the my third group project at Flatiron. Our objective was to make a basic front-end that would interact with our Ruby back-end. We created a website inspired by <a target="_blank" href="https://www.ticketmaster.com/" >ticketmaster</a>. The goal was to implement full CRUD and get the front-end and back-end communicating using Rake.
