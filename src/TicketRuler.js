@@ -1,12 +1,12 @@
 import React from "react";
 
-function TickerRuler() {
+function TicketRuler() {
 
     return (
         <div>
-            TickerRuler
+            TicketRuler
         </div>
     )
 }
 
-export default TickerRuler
+export default TicketRuler
