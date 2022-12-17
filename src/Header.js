@@ -15,6 +15,15 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './Home';
+import PokemonFetcher from './PokemonFetcher';
+import PickyEater from './PickyEater';
+import TickerRuler from './TicketRuler';
+import Aircnc from './Aircnc';
+import GameBuddy from './GameBuddy';
+import Resume from './Resume';
+import Contact from './Contact';
 
 const solutions = [
   {
@@ -175,6 +184,7 @@ export default function Header() {
           </Popover.Group>
         </div>
       </div>
+      
 
       <Transition
         as={Fragment}
@@ -239,6 +249,18 @@ export default function Header() {
               </div>
             </div>
           </div>
+          <Router>
+	<Routes>
+	<Route path='/Home' exact element={<Home />} />
+	<Route path='/PokemonFetcher' exact element={<PokemonFetcher />} />
+	<Route path='/PickyEater' exact element={<PickyEater />} />
+	<Route path='/TickerRuler' exact element={<TickerRuler />} />
+	<Route path='/Aircnc' exact element={<Aircnc />} />
+	<Route path='/GameBuddy' exact element={<GameBuddy />} />
+	<Route path='/Resume' exact element={<Resume />} />
+	<Route path='/Contact' element={<Contact />} />
+	</Routes>
+</Router>
         </Popover.Panel>
       </Transition>
     </Popover>
