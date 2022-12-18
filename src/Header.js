@@ -3,13 +3,8 @@ import { Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
   Bars3Icon,
-  BookmarkSquareIcon,
-  CalendarIcon,
   ChartBarIcon,
   CursorArrowRaysIcon,
-  LifebuoyIcon,
-  PhoneIcon,
-  PlayIcon,
   ShieldCheckIcon,
   Squares2X2Icon,
   XMarkIcon,
@@ -44,36 +39,7 @@ const solutions = [
     icon: ArrowPathIcon,
   },
 ]
-const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-]
-const resources = [
-  {
-    name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
-    href: '#',
-    icon: LifebuoyIcon,
-  },
-  {
-    name: 'Guides',
-    description: 'Learn how to maximize our platform to get the most out of it.',
-    href: '#',
-    icon: BookmarkSquareIcon,
-  },
-  {
-    name: 'Events',
-    description: 'See what meet-ups and other events we might be planning near you.',
-    href: '#',
-    icon: CalendarIcon,
-  },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
-]
-const recentPosts = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
-]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -105,7 +71,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-[#043A45]',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#1F7A8C] focus:ring-offset-2'
                     )}
                   >
                     <span>Portfolio</span>
@@ -153,9 +119,10 @@ export default function Header() {
               )}
             </Popover>
 
-            <Link to="/Resume" className="text-base font-medium text-[#043A45] hover:text-gray-900">
+            <a target="_blank" href="https://drive.google.com/file/d/1sCy4bt-OrXuIiFGnDrHorzy5htsR17BC/view?usp=sharing" className="text-base font-medium text-[#043A45] hover:text-gray-900">
               Resume
-            </Link>
+            </a>
+            {/* <a className="text-xl centered mx-auto text-[#1F7A8C] no-underline hover:underline ..." target="_blank" href="https://drive.google.com/file/d/1sCy4bt-OrXuIiFGnDrHorzy5htsR17BC/view?usp=sharing" >View PDF</a> */}
             <Link to="/Contact" className="text-base font-medium text-[#043A45] hover:text-gray-900">
               Contact
             </Link>
@@ -186,7 +153,7 @@ export default function Header() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#1F7A8C]">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

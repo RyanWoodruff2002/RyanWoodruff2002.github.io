@@ -7,7 +7,6 @@ import PickyEater from './PickyEater';
 import TicketRuler from './TicketRuler';
 import Aircnc from './Aircnc';
 import GameBuddy from './GameBuddy';
-import Resume from './Resume';
 import Contact from './Contact';
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <Route path='/TicketRuler' exact element={<TicketRuler />} />
         <Route path='/Aircnc' exact element={<Aircnc />} />
         <Route path='/GameBuddy' exact element={<GameBuddy />} />
-        <Route path='/Resume' exact element={<Resume />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
     </>
