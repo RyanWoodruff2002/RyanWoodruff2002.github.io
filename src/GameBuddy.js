@@ -5,7 +5,7 @@ function GameBuddy() {
     return (
         <div className="grid justify-items-center items-center">
             <br/>
-            <h1 className="text-5xl text-white centered pt-5 pb-5 bg-[#1F7A8C] w-screen">Game Buddy</h1>
+            <h1 className="text-5xl text-white centered pt-5 pb-5 bg-[#1F7A8C] w-full">Game Buddy</h1>
             <br/>
             <p className="tracking-wide w-2/3 mb-3 text-xl text-black-500 md:text-xl dark:text-black-400">
                 GameBuddy is the fifth and final project I completed at Flatiron. This was a solo project with minimal instructor interaction. For this project we were expected to incorporate everything we had learned in the program as well as one new technology we had to learn on our own. For this project I used REST client to incorporate an external API into my full stack application. 
@@ -20,15 +20,19 @@ function GameBuddy() {
                 After removing everything other than the user authentication, I began creating the GameBuddy app. Using the mmobomb API, I created a route that would show all the games and prompt users to add them to their list. Once add to their list, an instance of that game would be found or created on the back end and an instance of a join between the user and that game would be created if one did not already exist. The app unfortunately did not get a lot of functionality as optimization and security were the main focus. 
             </p>
             <br/>
-            <a target="_blank" className="text-purple-700 text-xl no-underline hover:underline ..."  href="https://github.com/RyanWoodruff2002/capstone" >GitHub Repo</a>
+            <a target="_blank" className="text-[#1F7A8C] text-xl no-underline hover:underline ..."  href="https://github.com/RyanWoodruff2002/capstone" >GitHub Repo</a>
             <br/>
             <iframe
-                width="800"
-                height="400"
+                width="1000"
+                height="600"
                 src="https://www.youtube.com/embed/p0vS923seD8">
             </iframe>
             <br/>
-            <a target="_blank" className="text-purple-700 text-xl no-underline hover:underline ..." href="https://www.youtube.com/watch?v=p0vS923seD8" >Video Demo</a>
+            <a target="_blank" className="text-[#1F7A8C] text-xl no-underline hover:underline ..." href="https://www.youtube.com/watch?v=p0vS923seD8" >Video Demo</a>
+            <br/>
+            <iframe width="1100" height="600" src="https://docs.google.com/document/d/e/2PACX-1vQmJ-p0Q45ybBeaN06nULiTUQvmuXMQ9ygnNxixVvRN0S4aQ_P2pE2_5qT5xcCY3kJKgkHUrFW_GRyH/pub?embedded=true"></iframe>
+            <br/>
+            <a target="_blank" className="text-[#1F7A8C] text-xl no-underline hover:underline ..." href="https://docs.google.com/document/d/1_bpeJHqJqc4vpAKShW-I-wRep7RkU3IswJLHdGHL7cY/edit?usp=sharing" >Project Pitch</a>
             <br/>
             <br/>
         </div>
