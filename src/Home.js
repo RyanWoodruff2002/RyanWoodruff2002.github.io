@@ -9,7 +9,7 @@ function Home() {
                 <p className="flex text-5xl centered text-white">HELLO, I’M RYAN WOODRUFF <br/> A FULL STACK DEVELOPER</p>
             </div>
             <div >
-                <p className="text-3xl p-10 text-[#00272F]">
+                <p className="text-xl p-10 text-[#00272F]">
                     I recently graduated from Flatiron's software engineering program. I create web apps using a JavaScript and React front-end with a Ruby on Rails back-end. 
                 <br/>
                 <br/>

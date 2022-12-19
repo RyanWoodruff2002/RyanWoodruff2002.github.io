@@ -11,6 +11,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import {  Link } from "react-router-dom";
+import Pdf from './docs/Ryan_Woodruff_Resume.pdf';
 
 const solutions = [
   {
@@ -119,7 +120,7 @@ export default function Header() {
               )}
             </Popover>
 
-            <a target="_blank" href="https://drive.google.com/file/d/1sCy4bt-OrXuIiFGnDrHorzy5htsR17BC/view?usp=sharing" className="text-base font-medium text-[#043A45] hover:text-gray-900">
+            <a target="_blank" href={Pdf} className="text-base font-medium text-[#043A45] hover:text-gray-900">
               Resume
             </a>
             {/* <a className="text-xl centered mx-auto text-[#1F7A8C] no-underline hover:underline ..." target="_blank" href="https://drive.google.com/file/d/1sCy4bt-OrXuIiFGnDrHorzy5htsR17BC/view?usp=sharing" >View PDF</a> */}
