@@ -12,6 +12,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import {  Link } from "react-router-dom";
 import Pdf from './docs/Ryan_Woodruff_Resume.pdf';
+import logo from './docs/ryan-woodruff-logo50.png';
 
 const solutions = [
   {
@@ -53,7 +54,8 @@ export default function Header() {
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link to='/'>
-              <p className="text-lg font-medium text-[#043A45] hover:text-gray-900 h-8 w-auto sm:h-10">Ryan Woodruff<p className='text-[#1F7A8C] text-base'>Full Stack Developer</p></p>
+              {/* <p className="text-lg font-medium text-[#043A45] hover:text-gray-900 h-8 w-auto sm:h-10">Ryan Woodruff<p className='text-[#1F7A8C] text-base'>Full Stack Developer</p></p> */}
+              <img className='flex mx-auto' src={logo} />
             </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
