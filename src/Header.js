@@ -122,7 +122,7 @@ export default function Header() {
               )}
             </Popover>
 
-            <a target="_blank" href={Pdf} className="text-base font-medium text-[#043A45] hover:text-gray-900">
+            <a target="_blank" href="https://drive.google.com/file/d/1wbGCfnQfLKJP_LKMuTRYhE7x9m0PhAF-/view?usp=sharing" className="text-base font-medium text-[#043A45] hover:text-gray-900">
               Resume
             </a>
             {/* <a className="text-xl centered mx-auto text-[#1F7A8C] no-underline hover:underline ..." target="_blank" href="https://drive.google.com/file/d/1sCy4bt-OrXuIiFGnDrHorzy5htsR17BC/view?usp=sharing" >View PDF</a> */}
